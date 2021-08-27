@@ -1,3 +1,10 @@
+//Pick element from preorder & create a node
+//Increment preorder idx
+//Search for picked element's pos in inorder
+//Call to build left subtree from inorder's 0 to pos-1
+//Call to build right subtree from inorder pos+1 to n
+//Return the node
+
 #include "bits/stdc++.h"
 using namespace std;
 
