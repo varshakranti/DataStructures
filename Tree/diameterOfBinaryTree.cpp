@@ -44,7 +44,7 @@ int main(){
     root->right->left = new Node(6);
     root->right->right = new Node(7);
 
-   //calculate height of binary tree
+   //calculate diameter of binary tree
    cout<<calcDiameter(root)<<"\n";
 
     return 0;
